@@ -1,0 +1,224 @@
+[
+  {
+    "ContainingType": "WebApplication3.Controllers.AccountsController",
+    "Method": "Login",
+    "RelativePath": "api/Accounts/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Core.Dtos.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication3.Controllers.AccountsController",
+    "Method": "Logout",
+    "RelativePath": "api/Accounts/logout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication3.Controllers.AccountsController",
+    "Method": "Register",
+    "RelativePath": "api/Accounts/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Core.Dtos.RegisterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication3.Controllers.CategorysController",
+    "Method": "Create",
+    "RelativePath": "api/Categorys",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Core.Dtos.CreateCategoryDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication3.Controllers.CategorysController",
+    "Method": "Edit",
+    "RelativePath": "api/Categorys",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Core.Dtos.EditCategoryDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication3.Controllers.CategorysController",
+    "Method": "Delete",
+    "RelativePath": "api/Categorys",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication3.Controllers.CategorysController",
+    "Method": "Get",
+    "RelativePath": "api/Categorys/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication3.Controllers.CategorysController",
+    "Method": "GetOll",
+    "RelativePath": "api/Categorys/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication3.Controllers.DoctorsController",
+    "Method": "Create",
+    "RelativePath": "api/Doctors",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Core.Dtos.CreateDoctorDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication3.Controllers.DoctorsController",
+    "Method": "Edit",
+    "RelativePath": "api/Doctors",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Core.Dtos.EditDoctorDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication3.Controllers.DoctorsController",
+    "Method": "Delete",
+    "RelativePath": "api/Doctors",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication3.Controllers.DoctorsController",
+    "Method": "Get",
+    "RelativePath": "api/Doctors/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication3.Controllers.DoctorsController",
+    "Method": "GetOll",
+    "RelativePath": "api/Doctors/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication3.Controllers.DoctorsController",
+    "Method": "ArchiveItem",
+    "RelativePath": "api/Doctors/Archive",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication3.Controllers.DoctorsController",
+    "Method": "RestoreItem",
+    "RelativePath": "api/Doctors/respons",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
